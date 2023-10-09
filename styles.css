@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-family: 1rem;
+  line-height: 1.5;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 70vh;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  margin: 0 auto;
+  background-color: #F8FBFE;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+
+.card {
+  background-image: url(./recipes/);
+}
